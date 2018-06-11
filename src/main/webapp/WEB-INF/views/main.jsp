@@ -4,8 +4,10 @@
 	<title>Home</title>
 </head>
 <body>
-<h1>
-	Hello File Server!  
-</h1>
+<form action="/FileUpload/file" enctype="multipart/form-data" method="post">
+		<input type="file" name="file" multiple="multiple">
+		<input type="submit" name="업로드"> 
+	</form>
+	<div id="view"></div>
 </body>
 </html>
