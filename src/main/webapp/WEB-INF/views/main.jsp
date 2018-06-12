@@ -4,7 +4,7 @@
 	<title>파일올리기</title>
 </head>
 <body>
-<form action="http://localhost:8080/test/FileUpload/file" enctype="multipart/form-data" method="post">
+<form action="http://gudi.iptime.org:10020/FileUpload/test" enctype="multipart/form-data" method="post">
 		<input type="text" name="boardNo" value="1"><Br>
 		<input type="text" name="userNo" value="1"><Br>
 		<input type="file" name="file" multiple="multiple">
